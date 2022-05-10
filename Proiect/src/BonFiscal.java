@@ -6,7 +6,7 @@ public class BonFiscal {
     private float pret;
     private final float tva;
     private List<Preparate> produse = new ArrayList<>();
-
+    
     public BonFiscal(Integer idBon, float pret, float tva, List<Preparate> produse) {
         this.idBon = idBon;
         this.pret = pret;
