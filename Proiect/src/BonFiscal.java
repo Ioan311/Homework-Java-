@@ -4,7 +4,7 @@ import java.util.List;
 public class BonFiscal {
     private Integer idBon;
     private float pret;
-    private final float tva;
+    private float tva;
     private List<Preparate> produse = new ArrayList<>();
     
     public BonFiscal(Integer idBon, float pret, float tva, List<Preparate> produse) {
@@ -13,6 +13,8 @@ public class BonFiscal {
         this.tva = tva;
         this.produse = produse;
     }
+
+    public BonFiscal() {}
 
     public Integer getIdBon() {
         return idBon;
@@ -32,6 +34,10 @@ public class BonFiscal {
 
     public float getTva() {
         return tva;
+    }
+
+    public void setTva(float tva) {
+        this.tva = tva;
     }
 
     public List<Preparate> getProduse() {

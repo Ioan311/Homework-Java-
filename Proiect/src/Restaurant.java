@@ -18,6 +18,8 @@ public class Restaurant {
         this.comenzi = comenzi;
     }
 
+    public Restaurant() {}
+
     public String getNume() {
         return nume;
     }
@@ -48,6 +50,22 @@ public class Restaurant {
 
     public ArrayList<Comanda> getComenzi() {
         return comenzi;
+    }
+
+    public void setAdresa(String adresa) {
+        this.adresa = adresa;
+    }
+
+    public void setTelefon(String telefon) {
+        this.telefon = telefon;
+    }
+
+    public void setMancaruri(List<Preparate> mancaruri) {
+        this.mancaruri = mancaruri;
+    }
+
+    public void setComenzi(ArrayList<Comanda> comenzi) {
+        this.comenzi = comenzi;
     }
 
     public void addPreparate(Preparate p) {

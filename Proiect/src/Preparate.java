@@ -12,6 +12,8 @@ public class Preparate {
         this.cantitate = cantitate;
     }
 
+    public Preparate() {}
+
     public int getPret() {
         return pret;
     }
@@ -22,5 +24,17 @@ public class Preparate {
 
     public int getCantitate() {
         return cantitate;
+    }
+
+    public void setPret(int pret) {
+        this.pret = pret;
+    }
+
+    public void setNumePreparat(String numePreparat) {
+        this.numePreparat = numePreparat;
+    }
+
+    public void setCantitate(int cantitate) {
+        this.cantitate = cantitate;
     }
 }
