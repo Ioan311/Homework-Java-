@@ -1,3 +1,7 @@
+package Products;
+
+import Person.User;
+
 public class Livrator extends User {
     private long ID;
 
@@ -21,7 +25,7 @@ public class Livrator extends User {
 
     @Override
     public String toString() {
-        return "Livrator{" +
+        return "Products.Livrator{" +
                 "ID=" + ID +
                 ", nume='" + nume + '\'' +
                 ", prenume='" + prenume + '\'' +

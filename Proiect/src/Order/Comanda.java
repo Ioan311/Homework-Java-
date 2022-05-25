@@ -1,6 +1,10 @@
+package Order;
+
+import Company.Restaurant;
+import Products.Livrator;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.lang.Object;
 
 import static javax.swing.text.html.parser.DTDConstants.ID;
 
@@ -24,7 +28,7 @@ public class Comanda {
     }
 
     /*
-    public Comanda(Comanda c, Integer idComanda) {
+    public Order.Comanda(Order.Comanda c, Integer idComanda) {
         super(c);
         this.idComanda = idComanda;
     }

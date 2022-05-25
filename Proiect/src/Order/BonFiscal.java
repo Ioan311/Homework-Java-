@@ -1,3 +1,7 @@
+package Order;
+
+import Products.Preparate;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +19,9 @@ public class BonFiscal {
     }
 
     public BonFiscal() {}
+
+    public BonFiscal(int parseInt, float parseFloat, float parseFloat1) {
+    }
 
     public Integer getIdBon() {
         return idBon;
@@ -51,7 +58,7 @@ public class BonFiscal {
 
     @Override
     public String toString() {
-        return "BonFiscal{" +
+        return "Order.BonFiscal{" +
                 "idBon=" + idBon +
                 ", pret='" + pret +
                 ", tva='" + tva +

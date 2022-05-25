@@ -1,3 +1,7 @@
+package Person;
+
+import Products.Livrator;
+
 import java.util.Objects;
 
 public class User {
@@ -65,7 +69,7 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
+        return "Person.User{" +
                 "nume='" + nume + '\'' +
                 ", prenume='" + prenume + '\'' +
                 ", varsta='" + varsta + '\'' +

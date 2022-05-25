@@ -1,3 +1,8 @@
+package Company;
+
+import Order.Comanda;
+import Products.Preparate;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,6 +24,8 @@ public class Restaurant {
     }
 
     public Restaurant() {}
+
+    public Restaurant(String field, String field1, String field2, int parseInt) {}
 
     public String getNume() {
         return nume;

@@ -1,3 +1,7 @@
+package Company;
+
+import Interfaces.License;
+
 import java.io.IOException;
 
 public class CompanieDelivery implements License {

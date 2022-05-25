@@ -1,3 +1,7 @@
+package Company;
+
+import Interfaces.Clasament;
+
 public class WebPage implements Clasament {
     private String URL;
     private static double users; // number of users
